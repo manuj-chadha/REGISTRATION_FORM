@@ -1,0 +1,48 @@
+.success-container {
+  max-width: 600px;
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.success-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2e7d32;
+}
+
+.success-card {
+  background: #000000;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: left;
+  color: #ffffff;
+  word-break: break-word;
+}
+
+.success-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.success-card p strong {
+  margin-right: 0.3rem;
+}
+
+/* 🔄 Mobile-specific tweaks */
+@media (max-width: 480px) {
+  .success-title {
+    font-size: 1.5rem;
+  }
+
+  .success-card {
+    padding: 1rem;
+  }
+
+  .success-card p {
+    font-size: 0.95rem;
+  }
+}
