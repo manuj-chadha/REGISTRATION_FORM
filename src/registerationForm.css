@@ -23,7 +23,6 @@
   gap: 1rem;
 }
 
-/* MOBILE: stack inputs vertically on small screens */
 @media (max-width: 600px) {
   .form-grid {
     grid-template-columns: 1fr;
@@ -31,10 +30,6 @@
   
   .password-wrapper {
     grid-column: auto; /* reset span */
-  }
-  
-  .phone-wrapper {
-    flex-direction: column;
   }
   
   .phone-code,

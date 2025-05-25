@@ -93,8 +93,8 @@ function RegistrationForm() {
 
           <div className="phone-wrapper" style={{ gridColumn: "span 2" }}>
             <select name="phoneCode" value={formData.phoneCode} onChange={handleChange} className="phone-code">
-              <option value="+91">+91</option>
-              <option value="+1">+1</option>
+              <option value="+91">+91 (India)</option>
+              <option value="+1">+1 (USA)</option>
             </select>
             <input type="tel" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} className="phone-number" />
           </div>
